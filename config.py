@@ -1,2 +1,2 @@
 class Config():
-    dbPath = "elaborate.db"
+    dbPath = "Elaborate.db"
