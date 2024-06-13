@@ -1,0 +1,12 @@
+.context-menu {
+    display:none;
+    position: absolute;
+    z-index: 10;
+    width: 100px;
+    height: 100px;
+    background-color: black;
+}
+
+.context-menu.menuActive {
+    display:block;
+}

@@ -5,8 +5,14 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <meta http-equiv="X-UA-Compatible" content="ie=edge">
     <title>Elaborate App</title>
+    <link rel="stylesheet" href="static/style.css">
   </head>
   <body>
+    <!-- Context Menu -->
+     <div class="context-menu">
+      <div class="flex hover:bg-gray-100 py-1 px-2 rounded cursor-pointer">Click me :)</div>
+     </div>
+    <!-- FTOA, which is the only block which should always appear at the top of the page -->
     <math xmlns="http://www.w3.org/1998/Math/MathML" display="block">
       <mstyle displaystyle="true" scriptlevel="0">
         <mrow data-mjx-texclass="ORD">
@@ -81,4 +87,5 @@
     <hr>
     {% endfor %}
   </body>
+  <script src="static/base.js"></script>
 </html>
